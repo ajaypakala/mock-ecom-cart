@@ -47,24 +47,36 @@ It demonstrates essential e-commerce functionalities — including **product lis
 
 ## 🧩 Folder Structure
 
+```bash
 mock-ecom-cart/
 │
-├── backend/
-│ ├── src/
-│ │ ├── index.js # Express server
-│ │ ├── routes/ # API routes
-│ │ └── data/ # Mock product data
-│ └── package.json
+├── backend/                      # Backend service
+│   ├── src/
+│   │   ├── index.js              # Entry point (Express server)
+│   │   ├── routes/               # API route handlers
+│   │   └── data/                 # Mock product data (JSON)
+│   │
+│   ├── package.json              # Backend dependencies
+│   └── README.md
 │
-├── frontend/
-│ ├── src/
-│ │ ├── App.js # Main React component
-│ │ ├── Cart.js # Cart management
-│ │ ├── Checkout.js # Checkout page
-│ │ └── index.js
-│ └── package.json
+├── frontend/                     # Frontend service (React)
+│   ├── src/
+│   │   ├── App.js                # Main React component
+│   │   ├── Cart.js               # Cart management component
+│   │   ├── Checkout.js           # Checkout page component
+│   │   ├── index.js              # React entry point
+│   │   ├── App.css               # App styles
+│   │   └── index.css             # Global styles
+│   │
+│   ├── public/                   # Static files
+│   │   ├── index.html
+│   │   ├── manifest.json
+│   │   └── favicon.ico
+│   │
+│   ├── package.json              # Frontend dependencies
+│   └── README.md
 │
-└── README.md
+└── README.md                     # Project overview (this file)
 
 
 ## 🖥️ Setup Instructions
