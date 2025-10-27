@@ -1,4 +1,5 @@
 🛒 Mock E-Com Cart — Full Stack E-Commerce App
+
 📘 Overview
 
 This is a full-stack shopping cart application built for the Nexora Internship Assignment.
@@ -21,13 +22,16 @@ API: REST-based communication between frontend and backend
 ✅ REST API integration between frontend & backend
 
 🧠 API Endpoints
+
 Method	Endpoint	Description
 GET	/api/products	Fetch list of mock products
 POST	/api/cart	Add item to cart
 DELETE	/api/cart/:id	Remove item from cart
 GET	/api/cart	Get cart items + total
 POST	/api/checkout	Generate mock receipt
+
 🧩 Folder Structure
+
 mock-ecom-cart/
 │
 ├── backend/
@@ -48,11 +52,14 @@ mock-ecom-cart/
 └── README.md
 
 🖥️ Setup Instructions
+
 1️⃣ Clone the repository
+
 git clone https://github.com/ajaypakala/mock-ecom-cart.git
 cd mock-ecom-cart
 
 2️⃣ Setup & Run Backend
+
 cd backend
 npm install
 npm run dev
